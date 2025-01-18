@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio - Sergio Madaleno Figueroa</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/foca.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Selecao
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Portfolio</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Hi! Welcome to my <span>Portfolio</span></h2>
+            <p class="animate__animated animate__fadeInUp">My name is Sergio Madaleno Figueroa, I'm going to share with you some of the projects I've worked on.</p>
+            <a href="#portfolio" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>What I've done</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-motor_graphics">Motor Graphics</li>
+            <li data-filter=".filter-uneral_engine">Unreal</li>
+            <li data-filter=".filter-unity">Unity</li>
+            <li data-filter=".filter-others">Others</li> <!-- Changed class name here -->
+          </ul><!-- End Portfolio Filters -->
+        
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+        
+            <!-- Unreal category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-uneral_engine">
+              <img src="assets/img/unreal.png" class="img-fluid" alt="Unreal Project 1">
+              <div class="portfolio-info">
+                <h4>Unreal Project</h4>
+                <p>My first project created in Unreal Engine, showcasing fundamental gameplay mechanics and basic level design.</p>
+                <a href="assets/img/unreal.png" title="My first project created in Unreal Engine, showcasing fundamental gameplay mechanics and basic level design." data-gallery="portfolio-gallery-unreal" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Unity category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-unity">
+              <img src="assets/img/poopywalk.png" class="img-fluid" alt="Unity Project 1">
+              <div class="portfolio-info">
+                <h4>Unity Project</h4>
+                <p>A game developed in Unity during a game jam, later enhanced with additional features and optimizations before being exported to mobile platforms.</p>
+                <a href="assets/img/poopywalk.png" title="A game developed in Unity during a game jam, later enhanced with additional features and optimizations before being exported to mobile platforms." data-gallery="portfolio-gallery-unity" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Motor Graphics category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motor_graphics">
+              <img src="assets/img/MotorGraphics.png" class="img-fluid" alt="Motor Graphics Project">
+              <div class="portfolio-info">
+                <h4>Motor Graphics</h4>
+                <p>My first experience working with OpenGL, learning the fundamentals of graphics programming and rendering techniques.</p>
+                <a href="assets/img/MotorGraphics.png" title="My first experience working with OpenGL, learning the fundamentals of graphics programming and rendering techniques." data-gallery="portfolio-gallery-motor" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Others category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <img src="assets/img/asteroids.png" class="img-fluid" alt="Other Project">
+              <div class="portfolio-info">
+                <h4>Asteroids</h4>
+                <p>A game built entirely in C++</p>
+                <a href="assets/img/asteroids.png" title="A game built entirely in C++" data-gallery="portfolio-gallery-others" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Others category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <img src="assets/img/pacman.png" class="img-fluid" alt="Other Project">
+              <div class="portfolio-info">
+                <h4>Pacman</h4>
+                <p>A Pacman game developed as an introduction to AI algorithms, including A* and A+.</p>
+                <a href="assets/img/pacman.png" title="A Pacman game developed as an introduction to AI algorithms, including A* and A+." data-gallery="portfolio-gallery-others" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Others category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <img src="assets/img/database.png" class="img-fluid" alt="Other Project">
+              <div class="portfolio-info">
+                <h4>Database</h4>
+                <p>Developing a user-friendly application designed to efficiently manage and interact with databases, offering features such as data storage, retrieval, and manipulation.</p>
+                <a href="assets/img/database.png" title="Developing a user-friendly application designed to efficiently manage and interact with databases, offering features such as data storage, retrieval, and manipulation." data-gallery="portfolio-gallery-others" class="glightbox preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!------------------------------ Videos ----------------------------------->
+            
+            <!-- Motor Graphics category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motor_graphics">
+              <div class="video-container">
+                <iframe 
+                  width="400" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/OV_k3NtyjZM?si=4DxSxSVmkbwk0jWF" 
+                  title="Motor Graphics Video" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="portfolio-info">
+                <h4>Motor Graphics</h4>
+                <p>My first experience working with OpenGL, learning the fundamentals of graphics programming and rendering techniques.</p>
+                <a href="https://www.youtube.com/embed/OV_k3NtyjZM?si=4DxSxSVmkbwk0jWF" title="Watch on YouTube" class="preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>          
+            
+            <!-- Unity -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-unity">
+              <div class="video-container">
+                <iframe 
+                  width="400" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/Rk9eHhXcHcU?si=VWsX83LEx1LwIiGB" 
+                  title="Unity Project Video" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="portfolio-info">
+                <h4>Unity Project</h4>
+                <p>A game developed in Unity during a game jam, later enhanced with additional features and optimizations before being exported to mobile platforms.</p>
+                <a href="https://www.youtube.com/embed/Rk9eHhXcHcU?si=VWsX83LEx1LwIiGB" title="Watch on YouTube" class="preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- unreal -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-uneral_engine">
+              <div class="video-container">
+                <iframe 
+                  width="400" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/1mJJZ1SLafo?si=4Nq6cwHhnhvewvKq" 
+                  title="Unreal Engine Project Video" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="portfolio-info">
+                <h4>Unreal Project</h4>
+                <p>My first project created in Unreal Engine, showcasing fundamental gameplay mechanics and basic level design.</p>
+                <a href="https://www.youtube.com/embed/1mJJZ1SLafo?si=4Nq6cwHhnhvewvKq" title="Watch on YouTube" class="preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+            
+
+            <!-- Others category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <div class="video-container">
+                <iframe 
+                  width="400" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/XVDvRHj9Pjw?si=xBHoKsiQCrqdecGe" 
+                  title="YouTube video player" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="portfolio-info">
+                <h4>Database</h4>
+                <p>Developing a user-friendly application designed to efficiently manage and interact with databases, offering features such as data storage, retrieval, and manipulation.</p>
+                <a href="https://www.youtube.com/watch?v=XVDvRHj9Pjw" title="Watch on YouTube" class="preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Others category -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <div class="video-container">
+                <iframe 
+                  width="400" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/skdAk9CDTEM?si=NE35pEtleAw53qgQ" 
+                  title="YouTube video player" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                  referrerpolicy="strict-origin-when-cross-origin" 
+                  allowfullscreen>
+                </iframe>
+              </div>
+              <div class="portfolio-info">
+                <h4>IA Algorithm</h4>
+                <p>IA Algorithm showcase</p>
+                <a href="https://www.youtube.com/embed/skdAk9CDTEM?si=NE35pEtleAw53qgQ" title="Watch on YouTube" class="preview-link">
+                  <i class="bi bi-zoom-in"></i>
+                </a>
+              </div>
+            </div>
+
+          </div><!-- End Portfolio Container -->
+        
+        </div>
+        
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+  </main>
+
+  <section id="contact" class="hero section dark-background">
+    <footer id="footer" class="footer dark-background">
+      <div class="container">
+        <h3 class="sitename">Contact</h3>
+        <p>You can also find me on these social platforms</p>
+        <div class="social-links d-flex justify-content-center">
+          
+          <!-- Add your GitHub link here -->
+          <a href="https://github.com/sergiomaddaleno" target="_blank"><i class="bi bi-github"></i></a>
+  
+          <!-- Add your LinkedIn link here -->
+          <a href="https://linkedin.com/in/sergiomadalenofigueroa" target="_blank"><i class="bi bi-linkedin"></i></a>
+
+          <!-- Add your YouTube link here -->
+        <a href="https://www.youtube.com/channel/UClXTSZiXH3GQyoXvFWPS8EA" target="_blank"><i class="bi bi-youtube"></i></a>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong> <span>All Rights Reserved</span>
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you've purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
