@@ -1166,10 +1166,20 @@ section,
 }
 
 /* Modal Open/Close Control */
-.modal.show .portfolio-item .portfolio-info {
-  visibility: hidden; /* Hide portfolio-info when modal is open */
-  opacity: 0; /* Optional: keep opacity zero */
+#databaseModal.show ~ .portfolio-item .portfolio-info {
+  visibility: hidden;
+  opacity: 0;
 }
+
+.grid-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 0.5rem;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
 
 
 /*--------------------------------------------------------------
