@@ -1166,7 +1166,12 @@ section,
 }
 
 /* Modal Open/Close Control */
-#databaseModal.show ~ .portfolio-item .portfolio-info {
+body.modal-open-custom .portfolio-info {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal.show .portfolio-item .portfolio-info {
   visibility: hidden;
   opacity: 0;
 }
@@ -1179,8 +1184,6 @@ section,
   padding-left: 0;
   list-style-position: inside;
 }
-
-
 
 /*--------------------------------------------------------------
 # Testimonials Section
