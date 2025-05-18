@@ -1740,6 +1740,15 @@ body.modal-open-custom .portfolio-info {
   background-color: var(--accent-color);
 }
 
+.portfolio-info {
+  transition: opacity 0.3s ease;
+}
+
+.portfolio-info.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
