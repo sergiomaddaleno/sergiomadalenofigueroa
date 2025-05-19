@@ -201,4 +201,13 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  $(".portfolio-filters li").on('click touchend', function(e) {
+  e.preventDefault(); // Prevent double firing
+  $(".portfolio-filters li").removeClass("filter-active");
+  $(this).addClass("filter-active");
+  var selector = $(this).attr("data-filter");
+  $grid.isotope({ filter: selector });
+  return false;
+});
+
 })();
