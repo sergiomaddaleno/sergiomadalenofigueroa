@@ -118,195 +118,294 @@
           </ul><!-- End Portfolio Filters -->
         
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-            
 
             <!-- Motor Graphics category -->
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motor_graphics">
-            <img src="assets/img/MotorGraphics.png" class="img-fluid" alt="Motor Graphics Project">
-            <div class="portfolio-info">
-              <h4>Motor Graphics - Second year final project</h4>
-              <a href="#" data-bs-toggle="modal" data-bs-target="#motorGraphicsModal">
-                <i class="bi bi-info-circle"></i>
-              </a>
-            </div>
-          </div>
-
-        <!-- Modal for Motor Graphics -->
-        <div class="modal fade" id="motorGraphicsModal" tabindex="-1" aria-labelledby="motorGraphicsModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="motorGraphicsModalLabel">Motor Graphics - Second year final project</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-
-                <h6><strong>About The Project</strong></h6>
-                <p>A beginner project where I learned the fundamentals of OpenGL. It includes basic rendering techniques like drawing shapes, managing shaders, and handling camera systems in 3D space. The project focused on understanding how to manipulate graphics in real-time using OpenGL.</p>
-              
-                <h6><strong>Features</strong></h6>
-                <ul>
-                  <li>Basic rendering with OpenGL</li>
-                  <li>Camera</li>
-                  <li>3D shapes rendering</li>
-                  <li>OpenGL buffers and textures</li>
-                  <li>Lighting - Directional, spot and point</li>
-                </ul>
-              
-                <h6><strong>Technologies Used</strong></h6>
-                <ul>
-                  <li>Language: C++</li>
-                  <li>Graphics: OpenGL</li>
-                  <li>Utilities: GLFW, GLAD, stb_image</li>
-                </ul>
-              
-                <h6><strong>Applications</strong></h6>
-                <p>This project was a stepping stone in learning OpenGL, providing the foundation for more advanced rendering systems. It was an excellent introduction to graphics programming and shader development.</p>
-
-                <div class="text-center mt-4">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-            
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motor_graphics">
-            <img src="assets/img/T33Engine.jpg" class="img-fluid" alt="T33Engine - Created with OpenGL">
-            <div class="portfolio-info">
-              <h4>T33Engine - Third year final project</h4>
-              <a href="#" data-bs-toggle="modal" data-bs-target="#t33Modal">
-                <i class="bi bi-info-circle"></i>
-              </a>
-            </div>
-          </div>
-
-            <!-- Modal for T33Engine -->
-              <div class="modal fade" id="t33Modal" tabindex="-1" aria-labelledby="t33ModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="t33ModalLabel">T33Engine - Third year final project</h5>
-                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                    
-                      <h6><strong>About The Project</strong></h6>
-                      <p>T33Engine is a custom-built rendering engine created using modern OpenGL. </p>
-
-                    
-                      <h6><strong>T33Engine Documentation</strong></h6>
-                      <a href="https://sergiomaddaleno.github.io/T33EngineDocumentation/" target="_blank" rel="noopener noreferrer">
-                      https://sergiomaddaleno.github.io/T33EngineDocumentation/
-                      </a>
-
-                      <p></p>
-
-                      <h6><strong>Features</strong></h6>
-                      <ul class="grid-columns">
-                        <li>Shadow Mapping</li>
-                        <li>Lighting Systems</li>
-                        <li>Geometries</li>
-                        <li>Meshes</li>
-                        <li>Skybox</li>
-                        <li>Volumetric Clouds</li>
-                        <li>Camera System</li>
-                        <li>Deferred Rendering</li>
-                        <li>Screen-Space Ambient Occlusion (SSAO)</li>
-                        <li>Postprocessing Effects</li>
-                        <li>L-System for procedural generation</li>
-                        <li>Fog Effects</li>
-                        <li>Entity Component System (ECS)</li>
-                        <li>Job System for multi-threading</li>
-                        <li>Stencil Outline Effect</li>
-                        <li>Scripting Support (Lua)</li>
-                        <li>Physics Engine</li>
-                        <li>ImGui Interface</li>
-                        <li>Transformation gizmo (ImGui)</li>
-                        <li>Create, Save, and Load Scenes</li>
-                        <li>Hierarchy System</li>
-                      </ul>
-                    
-                      <h6><strong>Technologies Used</strong></h6>
-                      <ul>
-                        <li>Language: C++</li>
-                        <li>Graphics: OpenGL (Modern Core Profile)</li>
-                        <li>UI: ImGui</li>
-                        <li>Utilities: GLFW, GLAD, stb_image, JSON</li>
-                        <li>Other: Lua for scripting, ECS pattern</li>
-                      </ul>
-                    
-                      <h6><strong>Applications</strong></h6>
-                      <p>This engine served as a base for experimenting with real-time graphics techniques and could be extended as a learning framework or integrated into larger game development pipelines. It supports rapid prototyping and shader experimentation.</p>
-                    
-                      <div class="text-center mt-4">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+                     <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motor_graphics">
+              <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+                   data-bs-toggle="modal" data-bs-target="#motorGraphicsModal">
+                <img src="assets/img/MotorGraphics.png" class="img-fluid" alt="Motor Graphics Project">
+                <div class="img-hover-overlay">
+                  <div class="overlay-content">
+                    <div class="overlay-title">Motor Graphics - Second year final project</div>
+                    <div class="overlay-icons">
+                      <img src="assets/img/Opengl-logo.svg.png" alt="opengl" style="width:75px; vertical-align: middle;">
+                      <img src="assets/img/c++.png" alt="c++" style="width:45px; vertical-align: middle;">
 
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <!-- Unity category -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-unity">
-  <img src="assets/img/poopywalk.png" class="img-fluid" alt="Unity Project 1">
-  <div class="portfolio-info">
-    <h4>PoopyWalk - Game Jam</h4>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#unityModal">
-      <i class="bi bi-info-circle"></i>
-    </a>
+            <!-- Modal -->
+<div class="modal fade" id="motorGraphicsModal" tabindex="-1" aria-labelledby="motorGraphicsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 pb-0">
+        <h2 class="modal-title w-100 text-center fw-bold" id="motorGraphicsModalLabel" style="font-size:2rem;">Motor Graphics - Second year final project</h2>
+        <button type="button" class="btn-close position-absolute end-0 me-3 mt-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body py-4 px-4">
+        <div class="row g-4">
+          <!-- Left: Video & Features -->
+          <div class="col-md-6">
+            <div class="ratio ratio-16x9 rounded shadow mb-4">
+              <iframe src="https://www.youtube.com/embed/OV_k3NtyjZM?si=4DxSxSVmkbwk0jWF"
+                      title="Motor Graphics Video"
+                      allowfullscreen
+                      style="border:0;"></iframe>
+            </div>
+            <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Features</h6>
+            <ul class="grid-columns">
+              <li>Basic rendering with OpenGL</li>
+              <li>Camera</li>
+              <li>3D shapes rendering</li>
+              <li>OpenGL buffers and textures</li>
+              <li>Directional Light</li>
+              <li>Spot Light</li>
+              <li>Point Light</li>
+            </ul>
+          </div>
+          <!-- Right: About & Technologies -->
+          <div class="col-md-6">
+            <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">About the Project</h6>
+            <p class="mb-4" style="color:#333;">
+              A beginner project where I learned the fundamentals of OpenGL. It includes basic rendering techniques like drawing shapes, managing shaders, and handling camera systems in 3D space. The project focused on understanding how to manipulate graphics in real-time using OpenGL.
+            </p>
+            <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Technologies Used</h6>
+            <ul class="list-unstyled mb-4">
+              <li><span class="text-secondary me-2">&#9679;</span>Language: C++</li>
+              <li><span class="text-secondary me-2">&#9679;</span>Graphics: OpenGL</li>
+              <li><span class="text-secondary me-2">&#9679;</span>Utilities: GLFW, GLAD, stb_image</li>
+            </ul>
+            <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Applications</h6>
+            <p style="color:#333;">
+              This project was a stepping stone in learning OpenGL, providing the foundation for more advanced rendering systems. It was an excellent introduction to graphics programming and shader development.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="modal-footer border-0 pt-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
   </div>
 </div>
+
+
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motor_graphics">
+  <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+       data-bs-toggle="modal" data-bs-target="#t33Modal">
+    <img src="assets/img/T33Engine.jpg" class="img-fluid" alt="T33Engine - Created with OpenGL">
+    <div class="img-hover-overlay">
+      <div class="overlay-content">
+        <div class="overlay-title">T33Engine - Third year final project</div>
+        <div class="overlay-icons">
+          <img src="assets/img/Opengl-logo.svg.png" alt="OpenGL" style="width:75px;">
+                      <img src="assets/img/c++.png" alt="c++" style="width:45px; vertical-align: middle;">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+           <!-- Modal for T33Engine -->
+<div class="modal fade" id="t33Modal" tabindex="-1" aria-labelledby="t33ModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="t33ModalLabel">T33Engine - Third year final project</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body py-4 px-4">
+  <div class="container-fluid">
+    <div class="row g-4">
+      <!-- Left: Video -->
+      <div class="col-md-6 d-flex justify-content-center">
+        <div class="ratio ratio-16x9 rounded shadow" style="max-width: 100%;">
+          <iframe 
+            src="https://www.youtube.com/embed/Lo7WAmAqTzU" 
+            title="T33Engine Video" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen
+            style="border:0;">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Right: Project Info -->
+      <div class="col-md-6">
+        <h6 class="text-primary text-uppercase fw-semibold mb-3" style="letter-spacing:0.05em;">About The Project</h6>
+        <p>T33Engine is a custom-built rendering engine created using modern OpenGL.</p>
+
+        <h6 class="text-primary text-uppercase fw-semibold mb-3" style="letter-spacing:0.05em;">T33Engine Documentation</h6>
+        <a href="https://sergiomaddaleno.github.io/T33EngineDocumentation/" target="_blank" rel="noopener noreferrer">
+          https://sergiomaddaleno.github.io/T33EngineDocumentation/
+        </a>
+
+        <h6 class="text-primary text-uppercase fw-semibold mt-4 mb-3" style="letter-spacing:0.01em;">Technologies Used</h6>
+        <ul>
+          <li>Language: C++</li>
+          <li>Graphics: OpenGL (Modern Core Profile)</li>
+          <li>UI: ImGui</li>
+          <li>Utilities: GLFW, GLAD, stb_image, JSON</li>
+          <li>Other: Lua for scripting, ECS pattern</li>
+        </ul>
+
+        </div>
+
+      <h6 class="text-primary text-uppercase fw-semibold mt-4 mb-3" style="letter-spacing:0.01em;">Features</h6>
+        <ul class="grid-columns">
+          <li>Shadow Mapping</li>
+          <li>Lighting Systems</li>
+          <li>Geometries</li>
+          <li>Meshes</li>
+          <li>Skybox</li>
+          <li>Volumetric Clouds</li>
+          <li>Camera System</li>
+          <li>Deferred Rendering</li>
+          <li>Screen-Space Ambient Occlusion (SSAO)</li>
+          <li>Postprocessing Effects</li>
+          <li>L-System for procedural generation</li>
+          <li>Fog Effects</li>
+          <li>Entity Component System (ECS)</li>
+          <li>Job System for multi-threading</li>
+          <li>Stencil Outline Effect</li>
+          <li>Scripting Support (Lua)</li>
+          <li>Physics Engine</li>
+          <li>ImGui Interface</li>
+          <li>Transformation gizmo (ImGui)</li>
+          <li>Create, Save, and Load Scenes</li>
+          <li>Hierarchy System</li>
+        </ul>
+
+        <h6 class="text-primary text-uppercase fw-semibold mt-4 mb-3" style="letter-spacing:0.05em;">Applications</h6>
+        <p>This engine served as a base for experimenting with real-time graphics techniques and could be extended as a learning framework or integrated into larger game development pipelines. It supports rapid prototyping and shader experimentation.</p>
+      
+    </div>
+  </div>
+</div>
+<div class="modal-footer border-0 pt-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+              <!-- Unity category -->
+<!-- Unity category -->
+<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-unity">
+  <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+       data-bs-toggle="modal" data-bs-target="#unityModal">
+    <img src="assets/img/poopywalk.png" class="img-fluid" alt="PoopyWalk - Game Jam">
+    <div class="img-hover-overlay">
+      <div class="overlay-content">
+        <div class="overlay-title">PoopyWalk - Game Jam</div>
+        <div class="overlay-icons">
+          <img src="assets/img/unity.png" alt="Unity" style="width:75px;">
+          <img src="assets/img/c-sharp.png" alt="c-sharp" style="width:45px;">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Modal for Unity Project -->
 <div class="modal fade" id="unityModal" tabindex="-1" aria-labelledby="unityModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="unityModalLabel">Unity Project - Game Jam to Mobile</h5>
+        <h5 class="modal-title" id="unityModalLabel">PoopyWalk - Game Jam to Mobile</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body py-4 px-4">
+        <div class="container-fluid">
+          <div class="row g-4 align-items-start">
+            <!-- Left: Video -->
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9 rounded shadow" style="width:100%; max-width:520px;">
+                <iframe 
+                  src="https://www.youtube.com/embed/Rk9eHhXcHcU?si=VWsX83LEx1LwIiGB" 
+                  title="Unity Project Video" 
+                  allowfullscreen
+                  style="border:0;">
+                </iframe>
+              </div>
+            </div>
+            <!-- Right: Project Info -->
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">About the Project</h6>
+                <p class="mb-0 ps-3">
+                  This game was initially developed during a game jam using Unity. It later received updates to enhance gameplay and features. After the updates, the game was optimized for mobile platforms, focusing on performance and usability on smaller screens.
+                </p>
+              </div>
 
-        <h6><strong>About The Project</strong></h6>
-        <p>This game was initially developed during a game jam using Unity. It later received updates to enhance gameplay and features. After the updates, the game was optimized for mobile platforms, focusing on performance and usability on smaller screens.</p>
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Technologies Used</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Game Engine: Unity</li>
+                  <li>Language: C#</li>
+                  <li>Mobile Platform: Android</li>
+                </ul>
+              </div>
 
-        <h6><strong>Features</strong></h6>
-        <ul>
-          <li>Real-time gameplay mechanics</li>
-          <li>Mobile optimization and touch controls</li>
-          <li>Character and environment animation</li>
-        </ul>
+              
+              
+              
+            </div>
 
-        <h6><strong>Technologies Used</strong></h6>
-        <ul>
-          <li>Game Engine: Unity</li>
-          <li>Language: C#</li>
-          <li>Mobile Platform: Android</li>
-        </ul>
+            <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Features</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Real-time gameplay mechanics</li>
+                  <li>Mobile optimization and touch controls</li>
+                  <li>Character and environment animation</li>
+                </ul>
+              </div>
 
-        <h6><strong>Applications</strong></h6>
-        <p>This project serves as an example of a small game developed under time constraints and later optimized for mobile platforms. It showcases the full pipeline from game jam prototype to a more polished, mobile-ready product.</p>
-
-        <div class="text-center mt-4">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+              <div>
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Applications</h6>
+                <p class="mb-0 ps-3">
+                  This project serves as an example of a small game developed under time constraints and later optimized for mobile platforms. It showcases the full pipeline from game jam prototype to a more polished, mobile-ready product.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
 
-            <!-- Other category -->
+
+
+<!-- Asteroids category -->
 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-  <img src="assets/img/asteroids.png" class="img-fluid" alt="Asteroids Game">
-  <div class="portfolio-info">
-    <h4>Asteroids - First year final project</h4>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#asteroidsModal">
-      <i class="bi bi-info-circle"></i>
-    </a>
+  <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+       data-bs-toggle="modal" data-bs-target="#asteroidsModal">
+    <img src="assets/img/asteroids.png" class="img-fluid" alt="Asteroids Game">
+    <div class="img-hover-overlay">
+      <div class="overlay-content">
+        <div class="overlay-title">Asteroids - First year final project</div>
+        <div class="overlay-icons">
+          <img src="assets/img/c++.png" alt="C++" style="width:55px;">
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <!-- Modal for Asteroids -->
 <div class="modal fade" id="asteroidsModal" tabindex="-1" aria-labelledby="asteroidsModalLabel" aria-hidden="true">
@@ -316,49 +415,87 @@
         <h5 class="modal-title" id="asteroidsModalLabel">Asteroids - Built in C++</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body py-4 px-4">
+        <div class="container-fluid">
+          <div class="row g-4 align-items-start">
+            <!-- Left: Video -->
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9 rounded shadow" style="width:100%; max-width:520px;">
+                <iframe 
+                  src="https://www.youtube.com/embed/Pl10_t5hVdo?si=bQSJyVjgvg4OgNvM" 
+                  title="Asteroids Project Video" 
+                  allowfullscreen
+                  style="border:0;">
+                </iframe>
+              </div>
+            </div>
 
-        <h6><strong>About The Project</strong></h6>
-        <p>This game is a recreation of the classic "Asteroids" game, built from scratch using C++. It was created to learn about game development fundamentals, including game loop, rendering, and collision detection.</p>
+            <!-- Right: Project Info -->
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">About The Project</h6>
+                <p class="mb-0 ps-3">
+                  This game is a recreation of the classic "Asteroids" game, built from scratch using C++. It was created to learn about game development fundamentals, including game loop, rendering, and collision detection.
+                </p>
+              </div>
 
-        <h6><strong>Features</strong></h6>
-        <ul>
-          <li>Real-time game loop</li>
-          <li>2D vector-based movement</li>
-          <li>Collision detection and response</li>
-          <li>Simple enemy AI</li>
-          <li>Basic game scoring and level progression</li>
-        </ul>
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Technologies Used</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Language: C++</li>
+                  <li>ESAT library</li>
+                </ul>
+              </div>
 
-        <h6><strong>Technologies Used</strong></h6>
-        <ul>
-          <li>Language: C++</li>
-          <li>Graphics: OpenGL (for rendering)</li>
-          <li>Input: Keyboard and mouse for controls</li>
-          <li>Utilities: SDL (Simple DirectMedia Layer) for window management and input handling</li>
-        </ul>
+              
+            </div>
 
-        <h6><strong>Applications</strong></h6>
-        <p>This project serves as an educational example of how to build a game from the ground up using C++, handling the core aspects of game development, such as input handling, game loops, rendering, and physics.</p>
+            <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Features</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Real-time game loop</li>
+                  <li>2D vector-based movement</li>
+                  <li>Collision detection and response</li>
+                  <li>Simple enemy AI</li>
+                  <li>Basic game scoring and level progression</li>
+                </ul>
+              </div>
 
-        <div class="text-center mt-4">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+              <div>
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Applications</h6>
+                <p class="mb-0 ps-3">
+                  This project serves as an educational example of how to build a game from the ground up using C++, handling the core aspects of game development, such as input handling, game loops, rendering, and physics.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
 
-            <!-- Unreal category -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-uneral_engine">
-  <img src="assets/img/unreal.png" class="img-fluid" alt="Unreal Project 1">
-  <div class="portfolio-info">
-    <h4>First Unreal Project</h4>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#unrealModal">
-      <i class="bi bi-info-circle"></i>
-    </a>
+
+<!-- Unreal category -->
+<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-unreal_engine">
+  <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+       data-bs-toggle="modal" data-bs-target="#unrealModal">
+    <img src="assets/img/unreal.png" class="img-fluid" alt="First Unreal Project">
+    <div class="img-hover-overlay">
+      <div class="overlay-content">
+        <div class="overlay-title">First Unreal Project</div>
+        <div class="overlay-icons">
+          <img src="assets/img/ue5.png" alt="Unreal Engine" style="width:55px;">
+          <img src="assets/img/c++.png" alt="c++" style="width:45px; vertical-align: middle;">
+
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <!-- Modal for First Unreal Project -->
 <div class="modal fade" id="unrealModal" tabindex="-1" aria-labelledby="unrealModalLabel" aria-hidden="true">
@@ -368,47 +505,84 @@
         <h5 class="modal-title" id="unrealModalLabel">First Unreal Project - Gameplay Mechanics</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body py-4 px-4">
+        <div class="container-fluid">
+          <div class="row g-4 align-items-start">
+            <!-- Left: Video -->
+            <div class="col-md-6 d-flex justify-content-center align-items-start">
+              <div class="ratio ratio-16x9 rounded shadow" style="width:100%; max-width:520px;">
+                <iframe 
+                  src="https://www.youtube.com/embed/1mJJZ1SLafo?si=4Nq6cwHhnhvewvKq" 
+                  title="Unreal Project Video" 
+                  allowfullscreen
+                  style="border:0;">
+                </iframe>
+              </div>
+            </div>
 
-        <h6><strong>About The Project</strong></h6>
-        <p>This project is my first experience with Unreal Engine. It demonstrates the implementation of basic gameplay mechanics such as player movement, camera controls, and a simple level design. The goal was to explore the core features of Unreal Engine.</p>
+            <!-- Right: Project Info -->
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">About The Project</h6>
+                <p class="mb-0 ps-3">
+                  This project is my first experience with Unreal Engine. It demonstrates the implementation of basic gameplay mechanics such as player movement, camera controls, and a simple level design. The goal was to explore the core features of Unreal Engine.
+                </p>
+              </div>
 
-        <h6><strong>Features</strong></h6>
-        <ul>
-          <li>Player movement and interaction</li>
-          <li>Basic camera system</li>
-          <li>Level design and environmental setup</li>
-          <li>Simple AI behavior for NPCs</li>
-          <li>Basic health and score systems</li>
-        </ul>
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Technologies Used</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Game Engine: Unreal Engine 5</li>
+                  <li>Graphics: Unreal Engine's native rendering pipeline</li>
+                  <li>Input: Keyboard and Mouse for player controls</li>
+                </ul>
+              </div>
 
-        <h6><strong>Technologies Used</strong></h6>
-        <ul>
-          <li>Game Engine: Unreal Engine 5</li>
-          <li>Graphics: Unreal Engine's native rendering pipeline</li>
-          <li>Input: Keyboard and Mouse for player controls</li>
-        </ul>
+              
+            </div>
+          </div>
 
-        <h6><strong>Applications</strong></h6>
-        <p>This project served as a learning tool to get hands-on experience with Unreal Engine. It helped in understanding the game engine’s workflow, and the creation of interactive gameplay systems, and serves as the foundation for more advanced Unreal projects in the future.</p>
+          <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Features</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Player movement and interaction</li>
+                  <li>Basic camera system</li>
+                  <li>Level design and environmental setup</li>
+                  <li>AI behavior for enemies</li>
+                  <li>Basic health and score systems</li>
+                </ul>
+              </div>
 
-        <div class="text-center mt-4">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+            <div>
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Applications</h6>
+                <p class="mb-0 ps-3">
+                  This project served as a learning tool to get hands-on experience with Unreal Engine. It helped in understanding the game engine’s workflow, and the creation of interactive gameplay systems, and serves as the foundation for more advanced Unreal projects in the future.
+                </p>
+              </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
 
 
-            <!-- Others category -->
+
+            <!-- pacman category -->
 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-  <img src="assets/img/pacman.png" class="img-fluid" alt="Pacman Game">
-  <div class="portfolio-info">
-    <h4>Pacman - A* & A+</h4>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#pacmanModal">
-      <i class="bi bi-info-circle"></i>
-    </a>
+  <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+       data-bs-toggle="modal" data-bs-target="#pacmanModal">
+    <img src="assets/img/pacman.png" class="img-fluid" alt="Pacman Game">
+    <div class="img-hover-overlay">
+      <div class="overlay-content">
+        <div class="overlay-title">Pacman - A* & A+</div>
+        <div class="overlay-icons">
+          <img src="assets/img/c++.png" alt="C++" style="width:55px;">
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -420,49 +594,87 @@
         <h5 class="modal-title" id="pacmanModalLabel">Pacman - A* & A+</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body py-4 px-4">
+        <div class="container-fluid">
+          <div class="row g-4 align-items-start">
+            <!-- Left: Video -->
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9 rounded shadow" style="width:100%; max-width:520px;">
+                <iframe 
+                  src="https://www.youtube.com/embed/skdAk9CDTEM?si=NE35pEtleAw53qgQ" 
+                  title="Pacman Project Video" 
+                  allowfullscreen
+                  style="border:0;">
+                </iframe>
+              </div>
+            </div>
 
-        <h6><strong>About The Project</strong></h6>
-        <p>This project is a Pacman game developed as an introduction to AI algorithms, specifically A* and A+ search algorithms. The goal is to show how AI can control Pacman’s movements and also how the ghosts behave using pathfinding algorithms.</p>
+            <!-- Right: Project Info -->
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">About The Project</h6>
+                <p class="mb-0 ps-3">
+                  This project is a Pacman game developed as an introduction to AI algorithms, specifically A* and A+ search algorithms. The goal is to show how AI can control Pacman’s movements and also how the ghosts behave using pathfinding algorithms.
+                </p>
+              </div>
 
-        <h6><strong>Features</strong></h6>
-        <ul>
-          <li>AI-based movement using A* and A+ algorithms</li>
-          <li>Pathfinding for both Pacman and the ghosts</li>
-          <li>Grid-based movement system</li>
-          <li>Basic collision detection with walls</li>
-          <li>Scoring system and game-over conditions</li>
-        </ul>
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Technologies Used</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Language: C++</li>
+                  <li>Algorithms: A* and A+ for AI pathfinding</li>
+                </ul>
+              </div>
 
-        <h6><strong>Technologies Used</strong></h6>
-        <ul>
-          <li>Language: C++</li>
-          <li>Algorithms: A* and A+ for AI pathfinding</li>
-          <li>Input: Keyboard for player controls</li>
-        </ul>
+              
+            </div>
 
-        <h6><strong>Applications</strong></h6>
-        <p>This project serves as an educational tool for understanding how AI algorithms can be implemented in a classic game like Pacman. It helps in learning pathfinding techniques and how AI can be integrated into game development.</p>
+            <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Features</h6>
+                <ul class="mb-0 ps-3">
+                  <li>AI-based movement using A* and A+ algorithms</li>
+                  <li>Pathfinding for both Pacman and the ghosts</li>
+                  <li>Grid-based movement system</li>
+                  <li>Basic collision detection with walls</li>
+                </ul>
+              </div>
 
-        <div class="text-center mt-4">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+              
+
+              <div>
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Applications</h6>
+                <p class="mb-0 ps-3">
+                  This project serves as an educational tool for understanding how AI algorithms can be implemented in a classic game like Pacman. It helps in learning pathfinding techniques and how AI can be integrated into game development.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
 
 
-            <!-- Others category -->
+           <!-- Database category -->
 <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-  <img src="assets/img/database.png" class="img-fluid" alt="Database Project">
-  <div class="portfolio-info">
-    <h4>Database</h4>
-    <a href="#" data-bs-toggle="modal" data-bs-target="#databaseModal">
-      <i class="bi bi-info-circle"></i>
-    </a>
+  <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+       data-bs-toggle="modal" data-bs-target="#databaseModal">
+    <img src="assets/img/database.png" class="img-fluid" alt="Database Project">
+    <div class="img-hover-overlay">
+      <div class="overlay-content">
+        <div class="overlay-title">Database</div>
+        <div class="overlay-icons">
+          <img src="assets/img/c++.png" alt="C++" style="width:55px; margin-right: 10px;">
+          <img src="assets/img/sql.png" alt="SQL" style="width:55px;">
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
 
 <!-- Modal for Database Project -->
 <div class="modal fade" id="databaseModal" tabindex="-1" aria-labelledby="databaseModalLabel" aria-hidden="true">
@@ -472,188 +684,253 @@
         <h5 class="modal-title" id="databaseModalLabel">Database Management Application</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body py-4 px-4">
+        <div class="container-fluid">
+          <div class="row g-4 align-items-start">
+            <!-- Left: Video -->
+            <div class="col-md-6 d-flex justify-content-center">
+              <div class="ratio ratio-16x9 rounded shadow" style="width:100%; max-width:520px;">
+                <iframe 
+                  src="https://www.youtube.com/embed/XVDvRHj9Pjw?si=xBHoKsiQCrqdecGe" 
+                  title="Database Project Video" 
+                  allowfullscreen
+                  style="border:0;">
+                </iframe>
+              </div>
+            </div>
 
-        <h6><strong>About The Project</strong></h6>
-        <p>This project is an application developed to manage and interact with databases. It offers a range of features such as data storage, retrieval, and manipulation through an intuitive interface, enabling users to perform CRUD (Create, Read, Update, Delete) operations efficiently. The application aims to facilitate easy database management with robust features and performance.</p>
+            <!-- Right: Project Info -->
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">About The Project</h6>
+                <p class="mb-0 ps-3">
+                  This project is an application developed to manage and interact with databases. It offers a range of features such as data storage, retrieval, and manipulation through an intuitive interface, enabling users to perform CRUD (Create, Read, Update, Delete) operations efficiently. The application aims to facilitate easy database management with robust features and performance.
+                </p>
+              </div>
 
-        <h6><strong>Features</strong></h6>
-        <ul>
-          <li>Data Storage and Retrieval</li>
-          <li>CRUD Operations for database tables</li>
-          <li>User-friendly Interface for easy interaction</li>
-          <li>Support for SQL Queries</li>
-          <li>Real-time Data Manipulation</li>
-          <li>Advanced Search and Filter Options</li>
-        </ul>
+                <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Technologies Used</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Language: C++ (for backend), SQL (for database queries)</li>
+                  <li>Database: SQLite</li>
+                  <li>Framework: Qt (for the user interface)</li>
+                </ul>
+              </div>
+              
+            </div>
 
-        <h6><strong>Technologies Used</strong></h6>
-        <ul>
-          <li>Language: C++ (for backend), SQL (for database queries)</li>
-          <li>Database: SQLite</li>
-          <li>Framework: Qt (for the user interface)</li>
-        </ul>
+            <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Features</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Data Storage and Retrieval</li>
+                  <li>CRUD Operations for database tables</li>
+                  <li>User-friendly Interface for easy interaction</li>
+                  <li>Support for SQL Queries</li>
+                  <li>Real-time Data Manipulation</li>
+                  <li>Advanced Search and Filter Options</li>
+                </ul>
+              </div>
 
-        <h6><strong>Applications</strong></h6>
-        <p>This application is designed to simplify database management for users who need an efficient way to interact with and manipulate datasets. It serves as a learning tool for database interaction, and could be extended with more advanced features such as user authentication, database encryption, and cloud integration.</p>
+              <div>
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Applications</h6>
+                <p class="mb-0 ps-3">
+                  This application is designed to simplify database management for users who need an efficient way to interact with and manipulate datasets. It serves as a learning tool for database interaction, and could be extended with more advanced features such as user authentication, database encryption, and cloud integration.
+                </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
-        <div class="text-center mt-4">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
+<!-- Unreal Zombies category -->
+<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-unreal_engine">
+  <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+       data-bs-toggle="modal" data-bs-target="#zombiesModal">
+    <img src="assets/img/ue5-t33.png" class="img-fluid" alt="Unreal Zombies Game">
+    <div class="img-hover-overlay">
+      <div class="overlay-content">
+        <div class="overlay-title">Unreal Zombies Game Prototype</div>
+        <div class="overlay-icons">
+          <img src="assets/img/ue5.png" alt="Unreal Engine" style="width:55px;">
+          <img src="assets/img/c++.png" alt="c++" style="width:45px; vertical-align: middle;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Unreal Zombies Game -->
+<div class="modal fade" id="zombiesModal" tabindex="-1" aria-labelledby="zombiesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="zombiesModalLabel">Unreal Zombies Game Prototype</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body py-4 px-4">
+        <div class="container-fluid">
+          <div class="row g-4 align-items-start">
+            <!-- Left: Video -->
+            <div class="col-md-6 d-flex justify-content-center align-items-start">
+              <div class="ratio ratio-16x9 rounded shadow" style="width:100%; max-width:520px;">
+                <iframe 
+                  src="https://www.youtube.com/embed/k25Vr5U001M?si=ng4bZXVbPzXtOmOk" 
+                  title="Unreal Zombies Game Video" 
+                  allowfullscreen
+                  style="border:0;">
+                </iframe>
+              </div>
+            </div>
+
+            <!-- Right: Project Info -->
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">About The Project</h6>
+                <p class="mb-0 ps-3">
+                  Simple proyect we made to develop a zombies like game.
+                </p>
+              </div>
+
+              
+
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Technologies Used</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Game Engine: Unreal Engine 5</li>
+                  <li>C++ for gameplay scripting</li>
+                  <li>AI Behavior Trees</li>
+                </ul>
+              </div>
+
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Features</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Wave-based zombie AI</li>
+                  <li>Weapon system</li>
+                  <li>Health system</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div>
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Applications</h6>
+                <p class="mb-0 ps-3">
+                  This project demonstrates core gameplay mechanics for survival shooters and serves as a foundation for more complex multiplayer Unreal Engine games.
+                </p>
+              </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
 
 
-            <!------------------------------ Videos ----------------------------------->
-            
-            <!-- Motor Graphics category -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motor_graphics">
-              <div class="video-container">
-                <iframe 
-                  width="400" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/OV_k3NtyjZM?si=4DxSxSVmkbwk0jWF" 
-                  title="Motor Graphics Video" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-            </div>          
+<!-- L-System category -->
+<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-opengl">
+  <div class="img-hover-container" style="position:relative; overflow:hidden; border-radius:8px; cursor:pointer;"
+       data-bs-toggle="modal" data-bs-target="#lsystemModal">
+    <img src="assets/img/l-system.png" class="img-fluid" alt="L-System Project">
+    <div class="img-hover-overlay">
+      <div class="overlay-content">
+        <div class="overlay-title">L-System - Procedural Generation</div>
+        <div class="overlay-icons">
+          <img src="assets/img/Opengl-logo.svg.png" alt="opengl" style="width:75px; vertical-align: middle;">
+          <img src="assets/img/c++.png" alt="c++" style="width:45px; vertical-align: middle;">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motor_graphics">
-              <div class="video-container">
+<!-- Modal for L-System Project -->
+<div class="modal fade" id="lsystemModal" tabindex="-1" aria-labelledby="lsystemModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="lsystemModalLabel">L-System - Procedural Generation in OpenGL</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body py-4 px-4">
+        <div class="container-fluid">
+          <div class="row g-4 align-items-start">
+            <!-- Left: Video -->
+            <div class="col-md-6 d-flex justify-content-center align-items-start">
+              <div class="ratio ratio-16x9 rounded shadow" style="width:100%; max-width:520px;">
                 <iframe 
-                  width="400" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/Lo7WAmAqTzU" 
-                  title="T33Engine Video" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-            </div>     
-            
-            <!-- Unity -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-unity">
-              <div class="video-container">
-                <iframe 
-                  width="400" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/Rk9eHhXcHcU?si=VWsX83LEx1LwIiGB" 
-                  title="Unity Project Video" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-            </div>
-
-            <!-- unreal -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-uneral_engine">
-              <div class="video-container">
-                <iframe 
-                  width="400" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/1mJJZ1SLafo?si=4Nq6cwHhnhvewvKq" 
-                  title="Unreal Engine Project Video" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-            </div>
-            
-
-            <!-- Others category -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-              <div class="video-container">
-                <iframe 
-                  width="400" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/XVDvRHj9Pjw?si=xBHoKsiQCrqdecGe" 
-                  title="YouTube video player" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-            </div>
-
-            <!-- Others category -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-              <div class="video-container">
-                <iframe 
-                  width="400" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/skdAk9CDTEM?si=NE35pEtleAw53qgQ" 
-                  title="YouTube video player" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-                </iframe>
-              </div>
-            </div>
-
-            <!-- Others category -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-              <div class="video-container">
-                <iframe 
-                  width="400" 
-                  height="315" 
                   src="https://www.youtube.com/embed/pY61MJ1uHLI?si=Xoz4xWLLCLmS02lM" 
-                  title="YouTube video player" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
+                  title="L-System Project Video" 
+                  allowfullscreen
+                  style="border:0;">
                 </iframe>
               </div>
             </div>
 
-            <!-- Others category -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-              <div class="video-container">
-                <iframe 
-                  width="400" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/Pl10_t5hVdo?si=bQSJyVjgvg4OgNvM" 
-                  title="YouTube video player" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-                </iframe>
+            <!-- Right: Project Info -->
+            <div class="col-md-6">
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">About The Project</h6>
+                <p class="mb-0 ps-3">
+                  This project implements an L-System for procedural generation of fractal-like structures using OpenGL. It demonstrates recursive algorithms, string rewriting, and real-time rendering techniques.
+                </p>
               </div>
-            </div>
 
-            <!-- Others category -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
-              <div class="video-container">
-                <iframe 
-                  width="400" 
-                  height="315" 
-                  src="https://www.youtube.com/embed/k25Vr5U001M?si=ng4bZXVbPzXtOmOk" 
-                  title="YouTube video player" 
-                  frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                  referrerpolicy="strict-origin-when-cross-origin" 
-                  allowfullscreen>
-                </iframe>
+              
+
+              <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Technologies Used</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Language: C++</li>
+                  <li>Graphics: OpenGL</li>
+                  <li>Utilities: GLFW, GLAD</li>
+                  <li>Shaders: GLSL for rendering</li>
+                </ul>
+              </div>
+
+              
+
+            
+          </div>
+
+          <div class="mb-4">
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Features</h6>
+                <ul class="mb-0 ps-3">
+                  <li>Recursive L-System string rewriting</li>
+                  <li>Procedural generation of fractal plants and structures</li>
+                  <li>Real-time rendering with OpenGL</li>
+                  <li>Customizable rules and parameters</li>
+                  <li>Interactive visualization controls</li>
+                </ul>
+              </div>
+
+
+              <div>
+                <h6 class="text-primary text-uppercase fw-semibold mb-2" style="letter-spacing:0.05em;">Applications</h6>
+                <p class="mb-0 ps-3">
+                  This project serves as a foundation for exploring procedural content generation and fractal modeling, useful in graphics research, game development, and simulations.
+                </p>
               </div>
             </div>
+        </div>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-outline-primary px-4" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+            <!------------------------------ Videos ----------------------------------->
 
           </div><!-- End Portfolio Container -->
-        
         </div>
         
 

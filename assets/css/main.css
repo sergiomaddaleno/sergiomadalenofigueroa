@@ -27,10 +27,147 @@
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
+/*modal*/
+
+.img-hover-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  display: flex;                /* Center image horizontally & vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.img-hover-container img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 0.3s;
+  object-fit: contain;          /* Keep aspect ratio, fit inside container */
+  /* Make image slightly bigger by default */
+  transform: scale(1.05);
+}
+
+.img-hover-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(30, 41, 59, 0.7); /* dark blue overlay */
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.img-hover-container:hover .img-hover-overlay,
+.img-hover-container:focus .img-hover-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.img-hover-container:hover img {
+  transform: scale(1.15);       /* Bigger zoom on hover */
+}
+
+.img-hover-overlay .overlay-content {
+  text-align: center;
+}
+
+.overlay-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.overlay-icons {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically if container has height */
+  width: 100%;
+  margin-top: 0.5em;       /* optional: space from title */
+gap: 15px;
+}
+.overlay-icons img {
+  display: block;
+  width: 55px;
+  height: auto;
+}
+
 .modal-content {
   background-color: #558fc5; /* your desired background color */
   color: #f5f5f5; /* text color for contrast */
 }
+
+.modal-content {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+  padding: 0;
+}
+
+.modal-header {
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.modal-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin: 0 auto;
+  letter-spacing: 0.03em;
+}
+
+.btn-close {
+  filter: invert(0.5);
+  opacity: 0.7;
+  top: 1.2rem;
+  right: 1.2rem;
+  z-index: 2;
+}
+
+.modal-body {
+  background: transparent;
+  color: #222;
+  font-size: 1.07rem;
+  line-height: 1.5;
+  padding-top: 0.5rem;
+}
+
+.list-group-item {
+  background: transparent;
+  border: none;
+  padding-left: 0;
+  color: #444;
+  font-size: 1rem;
+}
+
+.list-unstyled li {
+  margin-bottom: 0.4em;
+  font-size: 1rem;
+  color: #444;
+  list-style: none;
+}
+
+@media (max-width: 767.98px) {
+  .modal-dialog {
+    max-width: 97vw;
+    margin: 1vh auto;
+  }
+  .modal-body {
+    padding: 1rem 0.5rem;
+  }
+}
+
+/*-----------------------------------------------*/
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
@@ -56,6 +193,8 @@
   --surface-color: #048a73;
   --contrast-color: #ffffff;
 }
+
+
 
 /* Smooth scroll */
 :root {
@@ -143,6 +282,7 @@ h6 {
     transform: rotate(360deg);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Global Header
@@ -1163,17 +1303,6 @@ section,
   visibility: visible; /* Make it visible on hover */
   bottom: 0;
   z-index: 10; /* Raise z-index on hover */
-}
-
-/* Modal Open/Close Control */
-body.modal-open-custom .portfolio-info {
-  visibility: hidden;
-  opacity: 0;
-}
-
-.modal.show .portfolio-item .portfolio-info {
-  visibility: hidden;
-  opacity: 0;
 }
 
 .grid-columns {
