@@ -284,6 +284,33 @@ h6 {
 }
 
 
+.cool-download-btn {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(90deg, #1e3c72 0%, #2a5298 100%);
+  color: #fff;
+  padding: 16px 32px;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(30,60,114,0.2);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cool-download-btn i {
+  margin-right: 12px;
+  font-size: 1.5em;
+}
+
+.cool-download-btn:hover {
+  background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 8px 24px rgba(30,60,114,0.3);
+}
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
