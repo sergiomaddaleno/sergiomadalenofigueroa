@@ -60,6 +60,25 @@ html {
   
 }
 
+.typed-text {
+  font-weight: 500;
+}
+
+.cursor {
+  display: inline-block;
+  background-color: var(--skin-color); /* Or your cursor color */
+  width: 2px;
+  animation: blink 1s step-start 0s infinite;
+  margin-left: 2px;
+  height: 3.0rem; /* Match your text height */
+  vertical-align: middle; /* Align with text */
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+
 .separator-line {
   border: 0;
   height: 1px;
