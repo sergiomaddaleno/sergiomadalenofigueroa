@@ -1,1 +1,0 @@
-# sergiomadalenofigueroa.github.io
