@@ -78,6 +78,29 @@ html {
   50% { opacity: 0; }
 }
 
+  .steam-button {
+    display: inline-block;
+    background-color: #171a21; /* Steam dark background */
+    color: #66c0f4;           /* Steam blue */
+    font-weight: 600;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    user-select: none;
+  }
+
+  .steam-button:hover {
+    background-color: #66c0f4;
+    color: #171a21;
+    box-shadow: 0 6px 14px rgba(102, 192, 244, 0.7);
+  }
+
+  .steam-button:active {
+    transform: scale(0.95);
+  }
 
 .separator-line {
   border: 0;
